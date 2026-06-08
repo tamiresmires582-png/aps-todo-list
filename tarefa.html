@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Tarefas</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="painel-tarefas">
+        
+        <div class="cabecalho">
+            <h2>Minha Lista de Tarefas</h2>
+            <button id="botaoSair">Sair</button>
+        </div>
+
+        <div class="area-nova-tarefa">
+            <h3> Nova Tarefa</h3>
+            
+            <form id="formTarefa" class="form-tarefa">
+                
+                <input type="text" id="tarefaInput" required placeholder="Digite sua tarefa...">
+                <button type="submit" id="botaoAdicionar">Adicionar</button>
+            </form>
+        </div>
+
+        <div class="area-lista-tarefas">
+            <h3>Minhas Tarefas</h3>
+<ul id="listaTarefas"></ul>
+        </div>
+    </div>
+
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
